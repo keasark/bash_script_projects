@@ -395,3 +395,15 @@ history -a
 help let
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+t="The next number is, "
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+x=$RANDOM
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo $t B:$x
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+./bingo.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
