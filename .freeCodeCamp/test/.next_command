@@ -430,3 +430,9 @@ history -a
 help if
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+./bingo.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+./bingo.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
