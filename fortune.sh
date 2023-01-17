@@ -7,7 +7,6 @@ echo -e "\n~~ Fortune Teller ~~\n"
 RESPONSES=("Yes" "No" "Maybe" "Outlook good" "Don't count on it" "Ask again later")
 N=$(( RANDOM % 6 ))
 
-
 function GET_FORTUNE() {
   if [[ ! $1 ]]
   then
@@ -26,4 +25,4 @@ do
   GET_FORTUNE again
 done
 
-echo -e "\n${RESPONSES[$N]}"
+echo -e "\n$RESPONSES[$N]"
